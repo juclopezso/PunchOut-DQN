@@ -1,0 +1,32 @@
+{
+  "info": {
+    "macHealth": {
+      "address": 913,
+      "type": "=i1"
+    },
+    "oppHealth": {
+      "address": 920,
+      "type": "=i1"
+    },
+    "macKo": {
+      "address":976,
+      "type": "=i1"
+    },
+    "oppKo": {
+      "address":977,
+      "type": "=i1"
+    },
+    "hearts10": {
+      "address":803,
+      "type": "=i1"
+    },
+    "hearts1": {
+      "address":804,
+      "type": "=i1"
+    },
+    "losses": {
+      "address":10,
+      "type": "=i1"
+    }
+  }
+}

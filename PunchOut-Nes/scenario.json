@@ -1,0 +1,24 @@
+{
+  "done": {
+    "variables": {
+      "losses": {
+        "op": "greater-than",
+        "reference": 0
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "oppHealth": {
+        "reward": 40.0
+      }
+    }
+  },
+  "penalty": {
+    "variables": {
+      "macHealth": {
+        "penalty": 40.0
+      }
+    }
+  }
+}
