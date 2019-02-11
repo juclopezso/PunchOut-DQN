@@ -2,23 +2,15 @@
   "done": {
     "variables": {
       "losses": {
-        "op": "greater-than",
-        "reference": 0
+        "op": "equal",
+        "reference": 1
       }
     }
   },
   "reward": {
-    "variables": {
-      "oppHealth": {
-        "reward": 40.0
-      }
-    }
+    "script": "lua:check_reward"
   },
-  "penalty": {
-    "variables": {
-      "macHealth": {
-        "penalty": 40.0
-      }
-    }
-  }
+  "scripts": [
+    "script.lua"
+  ]
 }
