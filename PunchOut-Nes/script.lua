@@ -15,7 +15,7 @@ function check_reward()
   if data.hearts10 > prev_h10 or data.hearts1 > prev_h1 then
     prev_h10 = data.hearts10
     prev_h1 = data.hearts1
-    return 12.0
+    return 20.0
   end
 
   if prev_oko < data.oppKo then
