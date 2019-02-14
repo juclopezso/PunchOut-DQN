@@ -43,10 +43,6 @@ function check_reward()
     return -10.0
   end
 
-  if data.position > -81.0 and data.position < -76.0 then
-    return 0.1
-  end
-
   return 0
 
 end
