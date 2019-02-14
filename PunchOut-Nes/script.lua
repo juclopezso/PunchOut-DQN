@@ -8,7 +8,7 @@ prev_h10 = data.hearts10
 prev_h1 = data.hearts1
 
 function check_reward()
-  if data.hearts10 == 0 and data.hearts1 == 0 and data.macHealth > 0 then
+  if data.hearts10 == 0 and data.hearts1 == 0 and data.macHealth < 1 then
       return -0.5
   end
 
@@ -41,6 +41,10 @@ function check_reward()
     local delta = prev_h1 - data.hearts1
     prev_h1 = data.hearts1
     return -10.0
+  end
+
+  if data.position > -81.0 and data.position < -76.0 then
+    return 0.1
   end
 
   return 0

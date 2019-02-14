@@ -1,9 +1,9 @@
 {
   "done": {
     "variables": {
-      "losses": {
+      "position": {
         "op": "equal",
-        "reference": 1
+        "reference": 0
       }
     }
   },

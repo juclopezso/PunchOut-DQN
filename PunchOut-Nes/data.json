@@ -24,16 +24,8 @@
       "address":804,
       "type": "=i1"
     },
-    "losses": {
-      "address":10,
-      "type": "=i1"
-    },
-    "opp_fight": {
-      "address":57,
-      "type": "=i1"
-    },
-    "clock": {
-      "address":773,
+    "position": {
+      "address":21,
       "type": "=i1"
     }
   }
