@@ -40,8 +40,9 @@ function check_reward()
   if prev_h1 > data.hearts1 then
     local delta = prev_h1 - data.hearts1
     prev_h1 = data.hearts1
-    return -delta
+    return -3.5
   end
 
-  return 0
+  return 3.0
+
 end
