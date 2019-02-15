@@ -1,0 +1,2 @@
+model_checkpoint_path: "modelTyson.ckpt"
+all_model_checkpoint_paths: "modelTyson.ckpt"
